@@ -74,7 +74,7 @@ We at our group use an internal tool called Qlikview to graphically represent th
 
 # Launching the Application as a Docker container:
 
-$ docker run -d -p 8082:80 tripd808/cicd-score
+$ docker run -d -p 8082:80 cicdscore/cicdscore
 
 This will run the container in detached mode, to execute SQLs you can attach to the container and run the queries as below:
 
