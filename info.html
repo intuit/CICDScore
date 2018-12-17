@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<!-- saved from url=(0070)https://blackrockdigital.github.io/startbootstrap-clean-blog/post.html -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>CICD Score</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="./info_theme/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom fonts for this template -->
+    <link href="./info_theme/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href="./info_theme/css" rel="stylesheet" type="text/css">
+    <link href="./info_theme/css(1)" rel="stylesheet" type="text/css">
+
+    <!-- Custom styles for this template -->
+    <link href="./info_theme/clean-blog.min.css" rel="stylesheet">
+
+  </head>
+
+  <body>
+
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
+      <div class="container">
+        <a class="navbar-brand" href="index.php">CICD Score Assessment tool</a>
+        <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+          Menu
+          <i class="fa fa-bars"></i>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarResponsive">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#CD_principles">Continuous Delivery Principles</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#git_strategy">Git branching strategy</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="http://in/contact-rare">Contact US</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Page Header -->
+    <header class="masthead" style="height:80px">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-8 col-md-10 mx-auto">
+            <div class="post-heading">
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <!-- Post Content -->
+    <article>
+      <!-- <div class="container"> -->
+        <div class="row">
+          <div class="col-lg-8 col-md-10 mx-auto">
+            <h1>My CICD Score</h1>
+            <p>As an organization how have we matured in our Continuous Integration & Continuous Delivery (CICD) practices  has been a challenge in the past. This innovation is a framework that allows us to evaluate the CI/CD score for any application , which projects the scores in a journey line graph along with the qualifying badges. </p>
+            <a href="">
+              <img class="img-fluid" src="./info_theme/demo.png" alt="">
+            </a>
+
+            <p><h3>Team members</h3>Sahana BS, Debajit Kataki</p>
+
+            <p><h3>Customer pain point</h3>CICD adds Speed to our release cycles , hence , as an organization we think CICD first for any new app. However - we also have legacy apps,  where it is  more of a cultural mind shift than a technical challenge to adopt and practice CICD. Most of the time we don’t know what areas to target for to be really practicing CICD at scale.  At the org level , how do we measure our overall CICD adoption and  maturity has been a pain point.</p>
+
+            <p><h3>Customer benefit</h3>Measurement removes subjectivity , and helps us to focus and strategize in an objective way. With this goal we  started designing this assessment framework , which is  very lightweight , and comprises of various industry standard CICD recommendations in the form of a checklist. This list can be used to gauge the maturity of our CICD competency and form a baseline for further improvements.
+ 
+</p>
+
+            <p><h3>Solution</h3>The landing page is the CICD  checklist , which we refresh on a regular basis allows us to evaluate the score for any given app. During the assessment the app team will  earn points against each qualifying items, and the underlying engine derives a total score and awards a qualifying badge.  There is also a live graph which tells about the journey-line of the app on how this application has been  maturing over time in their CICD practices.  The scores in the backend database for entire org  is then used to display the score cards and respective badges via a QlikView dashboard , which gives direction and also builds a momentum creating a healthy Network Effect.</p>
+
+            <hr>
+
+            <h2 class="section-heading" id="CD_principles">Continuous Delivery Principles</h2>
+            <p>Here are seven continuous delivery principles that make highly effective and efficient development and release cycles:</p>
+
+            <p>1. <b>Small releases</b> - smaller and multiple releases are usually better than one large one.</p>
+
+            <p>2. <b>Code reviews</b> - Many organizations use a hierarchal system for their reviews, which means more and more senior developers have to review the code before it’s approved. A peer-based system in which developers review each other leads to a faster and more efficient process</p>
+
+           <!--  <blockquote class="blockquote">The dreams of yesterday are the hopes of today and the reality of tomorrow. Science has not yet mastered prophecy. We predict too much for the next year and yet far too little for the next ten.</blockquote> -->
+
+            <p>3. <b>Build quality in</b> - Take the time to invest in your quality metrics. A project with good, targeted quality metrics (we could be talking about unit test coverage, code styling, rules violations, complexity measurements – or preferably, all of the above) will invariably be better than one without, and easier to maintain in the long run.</p>
+
+            <p>4. <b>Build only once → practice code promotion. </b></p>
+
+            <p>5. <b>If anything fails, stop the line</b> - Throw it away and start the process again, don’t patch, don’t hack. If a problem arises, no matter where, discard the deployment (i.e. rollback), fix the issue properly, check it in to source control and repeat the deployment process. This will be strictly followed in AWS deployments.</p>
+
+            <p>6. <b>Version Control Everything</b> - Not only the code , but also configs, property files. etc.</p>
+
+            <p>7. <b>Everyone ( Dev, QE, Ops, RM , RE  ) has responsibility for the release process. </b></p>
+
+            <h2 class="section-heading">Additional note on CI and CD:</h2>
+
+            <p><h3>Definition: Continuous Integration</h3>Continuous Integration is a software development practice in which you build and unit-test software every time a developer checks in new code. This provides Agile software teams the rapid feedback they need to respond to market demands and eliminate problems quickly. Basically, <ul><li>Automate the build</li><li>Automatically test the code as often as possible for early detection of errors.</li><li>Any feedback will come back sooner , before the code has left the mind of developer.</li><li>Everyone can see what is happening.</li></ul></p>
+
+            
+            <!-- <span class="caption text-muted">To go places and do things that have never been done before – that’s what living is all about.</span> -->
+
+            <p><h3>Definition: Continuous Delivery</h3>Continuous Delivery (CD) is a software development practice in which continuous integration, automated testing, and automated deployment capabilities allow high-quality software to be developed and deployed rapidly, reliably and repeatedly with minimal manual overhead.</p>
+
+            <p><h3>Definition: Continuous Deploymen</h3>Continuous Deployment is a software development practice in which every code change goes through the entire pipeline and is put into production, automatically, resulting in many production deployments every day.
+            With Continuous Delivery your software is always release-ready, yet the timing of when to push it into production is a business decision, and so the final deployment is a manual step. With Continuous Deployment, any updated working version of the application is automatically pushed to production. Continuous Deployment mandates Continuous Delivery, but the opposite is not required.</p>
+
+            <hr>
+
+            <h2 class="section-heading" id="git_strategy">Git branching strategy</h2>
+            <p>So what exactly is a branch in Git? A branch in Git is simply a pointer to a commit. If you look at how a branch is represented in the '.git' directory, you'll find a textfile with the same name as the branch, simply containing the commit identifier of the current 'tip', or newest commit, on that branch. The branch itself is created by tracing the ancestry of that single commit, since every commit knows which commit it occurred after.
+
+            As from the RARE team, we have been asked about  what the 'right' Git branching strategy is. Our suggestion differs from team to team and situations but the following diagram gives an overall picture of the branching stratergy that can be </p>
+
+            <a href="">
+              <img class="img-fluid" src="./info_theme/Git-Branching.jpg" alt="">
+            </a>
+
+
+          </div>
+        </div>
+      </div>
+    </article>
+
+    <hr>
+
+    <!-- Footer -->
+    <footer>
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-8 col-md-3 mx-auto">
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <!-- Bootstrap core JavaScript -->
+    <script src="./info_theme/jquery.min.js"></script>
+    <script src="./info_theme/bootstrap.bundle.min.js"></script>
+
+    <!-- Custom scripts for this template -->
+    <script src="./info_theme/clean-blog.min.js"></script>
+
+  
+
+
+<div id="GfZsrulJ1528863157122"></div></body></html>
