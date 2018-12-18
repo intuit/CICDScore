@@ -22,8 +22,6 @@ The application is built using HTML, CSS, JavaScript, PHP and requires LAMP(linu
 
 [Install WAMP stack](http://www.ampps.com/WAMP) for Windows
 
-
-
 ### Database
 
 Create database 'cicdscore' and update the password in the connect_to_db.php file
