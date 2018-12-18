@@ -398,7 +398,7 @@ What's <?php echo "'$app_disp'";?> CICD Score? &nbsp;&nbsp<a href="dashboard.php
 		 <th style="text-align:center;">Continuous Integration <!--<span class="points">Earn 7 points--></th>
                 <th style="text-align:center;">Test Automation <!--<span class="points">Earn 6 points</span>--></th>
                 <th style="text-align:center;">Continuous Delivery <!--<span class="points">Earn 6 points--></th>
-	        <th style="text-align:center;">Monitoring <!--<span class="points">Earn 5 points--></th>
+	        <th style="text-align:center;">Continuous Monitoring <!--<span class="points">Earn 5 points--></th>
 	</tr>
 	<tr class="level">
 		<th class="level"></th>
@@ -412,7 +412,7 @@ What's <?php echo "'$app_disp'";?> CICD Score? &nbsp;&nbsp<a href="dashboard.php
 		<td>&nbsp;<input type="checkbox" value="7">&nbsp;&nbsp;Code analysis for static(Sonar) and security(Checkmarx, Contrast, RASP etc) is integrated. </td>
 		<td>&nbsp;<input type="checkbox" value="6">&nbsp;&nbsp;Code coverage is part of release criteria in SonarQube</td>
 		<td>&nbsp;<input type="checkbox" value="6">&nbsp;&nbsp;One click roll back is possible in production </td>
-		<td>&nbsp;<input type="checkbox" value="5">&nbsp;&nbsp;Auto-recovery of environmnets through 'IHP Self-Healing' and AWS Autoscaling groups  </td>
+		<td>&nbsp;<input type="checkbox" value="5">&nbsp;&nbsp;Auto-recovery of environmnets possible through Self-healing model  </td>
 		
 	</tr>
 	<tr>
@@ -440,7 +440,7 @@ What's <?php echo "'$app_disp'";?> CICD Score? &nbsp;&nbsp<a href="dashboard.php
 		<td class="level">Level 0</td>
 		<td>&nbsp;<input type="checkbox" value="0">&nbsp;&nbsp;Centralized version control for code and configs in GitHub</td>
 		<td>&nbsp;<input type="checkbox" value="6">&nbsp;&nbsp;Automated unit tests exists and exercised </td>
-		<td>&nbsp;<input type="checkbox" value="0">&nbsp;&nbsp;We still do a manual code deployment</td>
+		<td>&nbsp;<input type="checkbox" value="0">&nbsp;&nbsp;We currently do a manual code deployment</td>
 	<td>&nbsp;<input type="checkbox" value="0">&nbsp;&nbsp; <b>Production</b> health monitoring is available (e.g. Sitescope)</td>
 	</tr>
     </tbody>
