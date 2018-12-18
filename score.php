@@ -441,7 +441,7 @@ What's <?php echo "'$app_disp'";?> CICD Score? &nbsp;&nbsp<a href="dashboard.php
 		<td>&nbsp;<input type="checkbox" value="0">&nbsp;&nbsp;Centralized version control for code and configs in GitHub</td>
 		<td>&nbsp;<input type="checkbox" value="6">&nbsp;&nbsp;Automated unit tests exists and exercised </td>
 		<td>&nbsp;<input type="checkbox" value="0">&nbsp;&nbsp;We currently do a manual code deployment</td>
-	<td>&nbsp;<input type="checkbox" value="0">&nbsp;&nbsp; <b>Production</b> health monitoring is available (e.g. Sitescope)</td>
+	<td>&nbsp;<input type="checkbox" value="0">&nbsp;&nbsp; <b>Production</b> health monitoring is available (e.g. Wavefront)</td>
 	</tr>
     </tbody>
 </table>

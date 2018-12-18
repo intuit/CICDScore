@@ -111,7 +111,7 @@ Landing page:
 ## The original QlikView Dashboard looks like this:
 ![dashboard](img/original_dashboard.png)
 
-# Steps to contribute:
+## Steps to contribute:
 
 1. Fork this repository into your account on GitHub.
 2. Clone *your forked repository* (not our original one) to your hard drive with `git clone https://github.com/YOURUSERNAME/mycicdscore`.
