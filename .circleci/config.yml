@@ -20,4 +20,4 @@ jobs:
       - checkout
       - run:
           name: Build real-affinities and run tests
-          command: curl http://localhost:80
+          command: ls
