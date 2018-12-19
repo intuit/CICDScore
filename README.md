@@ -3,7 +3,7 @@
 
  <a href="https://circleci.com/gh/intuit/CICDscore">
         <img
-            src="https://img.shields.io/circleci/project/github/intuit/text-provider/master.svg?style=flat-square&logo=circleci"
+            src="https://img.shields.io/circleci/project/github/intuit/CICDscore/master.svg?style=flat-square&logo=circleci"
             alt="CircleCI"
         />
     </a>
