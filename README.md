@@ -1,6 +1,6 @@
 # <img src="img/cicd_logo.jpg" height="60" width="60"/> CICD SCORE
 
-[![Build Status](https://travis-ci.org/intuit/CICDScore.svg?branch=master)]
+![Build Status](https://travis-ci.org/intuit/CICDScore.svg?branch=master)
 
 CICD adds Speed to our release cycles. While adopting CICD , most of the time we don’t know what areas to target for to be really practicing CICD at scale.  At the org level , how do we measure our overall CICD adoption and  maturity has been a pain point.
   
