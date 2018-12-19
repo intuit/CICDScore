@@ -20,4 +20,4 @@ jobs:
       - checkout
       - run:
           name: Build real-affinities and run tests
-          command: ls
+          command: php -version
