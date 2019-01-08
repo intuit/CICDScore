@@ -1,4 +1,4 @@
-# <img src="img/cicd_logo.jpg" height="60" width="60"/> CICD SCORE
+# <img src="img/cicd-logo.png" height="60" width="60"/> CICD SCORE
 
 <a href="https://circleci.com/gh/intuit/CICDscore">
         <img
