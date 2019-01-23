@@ -24,8 +24,5 @@ jobs:
           name: get nodejs
           command: sudo apt-get install -y nodejs
       - run:
-          name: sym likn
-          command: ln -s /usr/bin/nodejs /usr/bin/node
-      - run:
           name: mocha
           command: sudo npm install --global mocha
