@@ -1,4 +1,11 @@
-# <img src="img/cicd_logo.jpg" height="60" width="60"/> CICD SCORE
+# <img src="img/cicd-logo.png" height="60" width="60"/> CICD SCORE
+
+<a href="https://circleci.com/gh/intuit/CICDscore">
+        <img
+            src="https://img.shields.io/circleci/project/github/intuit/text-provider/master.svg?style=flat-square&logo=circleci"
+            alt="CircleCI"
+        />
+</a>
 
 
  <a href="https://circleci.com/gh/intuit/CICDscore">
