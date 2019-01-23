@@ -27,5 +27,5 @@ jobs:
           name: mocha
           command: sudo npm install --global mocha
       - run:
-          name: mocha
+          name: Run tests
           command: npm test
