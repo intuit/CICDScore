@@ -17,14 +17,13 @@ jobs:
       - checkout
       - run:
           name: Build real-affinities and run tests
-          command:
-          php -version
+          command: php -version
       - run:
-          command:
-          apt-get install -y nodejs
+          name: get nodejs
+          command: apt-get install -y nodejs
       - run:
-          command:
-          ln -s /usr/bin/nodejs /usr/bin/node
-      - runn:
-          command:
-          npm install --global mocha
+          name: sym likn
+          command: ln -s /usr/bin/nodejs /usr/bin/node
+      - run:
+          name: mocha
+          command: npm install --global mocha
