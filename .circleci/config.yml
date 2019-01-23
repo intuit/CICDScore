@@ -5,6 +5,7 @@ jobs:
       # specify the version you desire here
       - image: circleci/php:7.1-browsers
       - image: circleci/mysql:latest
+      - image: circleci/node:4.8.2-jessie
       # Specify service dependencies here if necessary
       # CircleCI maintains a library of pre-built images
       # documented at https://circleci.com/docs/2.0/circleci-images/
@@ -16,9 +17,14 @@ jobs:
       - checkout
       - run:
           name: Build real-affinities and run tests
-          command: |-
+          command:
           php -version
-          curl -sL https://deb.nodesource.com/setup_10.x | sudo -E bash -
+      - run:
+          command:
           apt-get install -y nodejs
+      - run:
+          command:
           ln -s /usr/bin/nodejs /usr/bin/node
+      - runn:
+          command:
           npm install --global mocha
