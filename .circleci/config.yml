@@ -18,11 +18,14 @@ jobs:
           name: Build real-affinities and run tests
           command: php -version
       - run:
+          name: Build real-affinities and run tests
+          command: curl -sL https://deb.nodesource.com/setup_10.x | sudo -E bash -
+      - run:
           name: get nodejs
-          command: apt-get install -y nodejs
+          command: sudo apt-get install -y nodejs
       - run:
           name: sym likn
           command: ln -s /usr/bin/nodejs /usr/bin/node
       - run:
           name: mocha
-          command: npm install --global mocha
+          command: sudo npm install --global mocha
