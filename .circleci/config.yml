@@ -1,13 +1,10 @@
-# PHP CircleCI 2.0 configuration file
-#
-# Check https://circleci.com/docs/2.0/language-php/ for more details
-#
 version: 2
 jobs:
   build:
     docker:
       # specify the version you desire here
-      - image: cicdscore/cicdscore:1.0.1
+      - image: circleci/php:7.1-browsers
+      - image: circleci/mysql:latest
       # Specify service dependencies here if necessary
       # CircleCI maintains a library of pre-built images
       # documented at https://circleci.com/docs/2.0/circleci-images/
@@ -19,4 +16,9 @@ jobs:
       - checkout
       - run:
           name: Build real-affinities and run tests
-          command: curl localhost
+          command: |-
+          php -version
+          curl -sL https://deb.nodesource.com/setup_10.x | sudo -E bash -
+          apt-get install -y nodejs
+          ln -s /usr/bin/nodejs /usr/bin/node
+          npm install --global mocha
