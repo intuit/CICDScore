@@ -5,7 +5,6 @@ jobs:
       # specify the version you desire here
       - image: circleci/php:7.1-browsers
       - image: circleci/mysql:latest
-      - image: circleci/node:4.8.2-jessie
       # Specify service dependencies here if necessary
       # CircleCI maintains a library of pre-built images
       # documented at https://circleci.com/docs/2.0/circleci-images/
