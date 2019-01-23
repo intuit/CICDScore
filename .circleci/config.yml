@@ -26,3 +26,9 @@ jobs:
       - run:
           name: mocha
           command: sudo npm install --global mocha
+      - run:
+          name: mocha
+          command: ls
+      - run:
+          name: mocha
+          command: pwd
