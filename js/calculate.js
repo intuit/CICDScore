@@ -69,6 +69,41 @@ function calculate(argument) {
     return score;
 }
 
+function get_badge(score)
+{
+        var res = "";
+        if(score >= 90)
+        {
+                res = "Your score is "+score+". You have earned the <b>&quot;Fly badge!&quot;</b> <br> Hi 5! You are practicing CICD";
+                return 'Fly'
+
+        }
+        else if(score >=70 && score <=89)
+        {
+                //diff = 80-score;
+                res = "Your score is "+score+". You have earned the <b>&quot;Advanced badge!&quot;</b> <br> Solid foundation, Practicing CICD";
+                return 'Advanced'
+        }
+        else if(score >=45 && score <=69)
+        {
+                //diff = 60-score;
+                res = "Your score is "+score+". You have earned the <b>&quot;Skilled badge!&quot;</b> <br> You are probably halfway through to CICD";
+                return 'Skilled'
+        }
+        else if(score >=27 && score <=44)
+        {
+                //diff = 25-score;
+                res = "Your score is "+score+". You have earned the <b>&quot;Ready to Fly badge!&quot;</b> <br> Your prerequisites to get into CICD is completed";
+                return 'Ready_to_Fly'
+        }
+        else
+        {
+                //diff = 15-score;
+                res = "Your score is "+score+". You have earned the <b>&quot;Newbie badge!&quot;</b> <br> You have realized the need for CICD";
+                return 'Newbie'
+        }
+}
+
 function reset() 
 {
 	inps = document.getElementsByTagName('input');
@@ -149,4 +184,8 @@ function uncheck_prev(event,type)
          //       else
            //             document.getElementsByTagName('input')[16].checked=true
 	}
+}
+
+exports._test2 = {
+    get_badge: get_badge
 }
