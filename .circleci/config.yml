@@ -20,4 +20,4 @@ jobs:
       - run:
           name: Build real-affinities and run tests
           command: 
-          curl localhost
+          - curl localhost
